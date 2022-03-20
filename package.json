@@ -1,0 +1,38 @@
+{
+  "name": "@star-tech/api",
+  "version": "0.1.0",
+  "description": "Clean api module for your typescript project",
+  "author": "George Shinkarev <gkshi@ya.ru>",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc src/index.ts --outDir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/star-tech-dev/api-module.git"
+  },
+  "license": "MIT",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "keywords": [
+    "api",
+    "module",
+    "typescript"
+  ]
+}
